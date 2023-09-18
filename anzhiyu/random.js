@@ -1,1 +1,1 @@
-var posts=["2023/09/14/hello-world/","2023/09/12/page/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
+var posts=["2023/09/12/page/","2023/09/14/hello-world/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
