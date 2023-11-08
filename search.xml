@@ -1,58 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>新闻类APP设计系统分享</title>
-      <link href="/posts/1002/"/>
-      <url>/posts/1002/</url>
-      
-        <content type="html"><![CDATA[<h3 id="搭载Iframe的实时预览"><a href="#搭载Iframe的实时预览" class="headerlink" title="搭载Iframe的实时预览"></a>搭载Iframe的实时预览</h3><p>Figma提供的Iframe嵌入代码允许我们实时的浏览该项目，支持便捷的缩放和全屏展示。</p><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="970" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FDEh0ys71li4JXyOTBV2DKt%2F%25E9%25A1%25B6%25E5%25B3%25B0%25E6%2596%25B0%25E9%2597%25BBApp%3Ftype%3Ddesign%26node-id%3D189%253A403%26mode%3Ddesign%26t%3DVGfSyTsNCNOncIgw-1" allowfullscreen></iframe><h3 id="页面展示"><a href="#页面展示" class="headerlink" title="页面展示"></a>页面展示</h3><p><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-1.png" alt="顶峰新闻-1" title="顶峰新闻-1"><br><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-2.png" alt="顶峰新闻-2" title="顶峰新闻-2"><br><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-3.png" alt="顶峰新闻-3" title="顶峰新闻-3"><br><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-4.png" alt="顶峰新闻-4" title="顶峰新闻-4"><br><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-5.png" alt="顶峰新闻-5" title="顶峰新闻-5"></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> UI设计 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/posts/1002/"/>
-      <url>/posts/1002/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Have a Nice try</title>
-      <link href="/posts/1001/"/>
-      <url>/posts/1001/</url>
-      
-        <content type="html"><![CDATA[<h3 id="请从现在开始，尝试一些尝试吧"><a href="#请从现在开始，尝试一些尝试吧" class="headerlink" title="请从现在开始，尝试一些尝试吧"></a>请从现在开始，尝试一些尝试吧</h3><p>事实上，完成一个网站的想法对于我来说有太大的阻力了，从了解到开始，再到现如今尝试发一些博客，这之间的种种非常具有挑战性。</p><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="970" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FDEh0ys71li4JXyOTBV2DKt%2F%25E9%25A1%25B6%25E5%25B3%25B0%25E6%2596%25B0%25E9%2597%25BBApp%3Ftype%3Ddesign%26node-id%3D189%253A403%26mode%3Ddesign%26t%3DVGfSyTsNCNOncIgw-1" allowfullscreen></iframe><p><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-1.png" alt="顶峰新闻-1" title="顶峰新闻-1"><br><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-2.png" alt="顶峰新闻-2" title="顶峰新闻-2"><br><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-3.png" alt="顶峰新闻-3" title="顶峰新闻-3"><br><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-4.png" alt="顶峰新闻-4" title="顶峰新闻-4"><br><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-5.png" alt="顶峰新闻-5" title="顶峰新闻-5"></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Try </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>Have a Nice try</title>
+    <url>/posts/101/</url>
+    <content><![CDATA[<h3 id="请从现在开始，尝试一些尝试吧"><a href="#请从现在开始，尝试一些尝试吧" class="headerlink" title="请从现在开始，尝试一些尝试吧"></a>请从现在开始，尝试一些尝试吧</h3><p>事实上，完成一个网站的想法对于我来说有太大的阻力了，从了解到开始，再到现如今尝试发一些博客，这之间的种种非常具有挑战性。</p>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="970" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FDEh0ys71li4JXyOTBV2DKt%2F%25E9%25A1%25B6%25E5%25B3%25B0%25E6%2596%25B0%25E9%2597%25BBApp%3Ftype%3Ddesign%26node-id%3D189%253A403%26mode%3Ddesign%26t%3DVGfSyTsNCNOncIgw-1" allowfullscreen></iframe>
+
+<p><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-1.png" alt="顶峰新闻-1" title="顶峰新闻-1"><br><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-2.png" alt="顶峰新闻-2" title="顶峰新闻-2"><br><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-3.png" alt="顶峰新闻-3" title="顶峰新闻-3"><br><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-4.png" alt="顶峰新闻-4" title="顶峰新闻-4"><br><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-5.png" alt="顶峰新闻-5" title="顶峰新闻-5"></p>
+]]></content>
+      <tags>
+        <tag>Try</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新闻类APP设计系统分享</title>
+    <url>/posts/102/</url>
+    <content><![CDATA[<h3 id="搭载Iframe的实时预览"><a href="#搭载Iframe的实时预览" class="headerlink" title="搭载Iframe的实时预览"></a>搭载Iframe的实时预览</h3><p>Figma提供的Iframe嵌入代码允许我们实时的浏览该项目，支持便捷的缩放和全屏展示。</p>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="970" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FDEh0ys71li4JXyOTBV2DKt%2F%25E9%25A1%25B6%25E5%25B3%25B0%25E6%2596%25B0%25E9%2597%25BBApp%3Ftype%3Ddesign%26node-id%3D189%253A403%26mode%3Ddesign%26t%3DVGfSyTsNCNOncIgw-1" allowfullscreen></iframe>
+
+<h3 id="页面展示"><a href="#页面展示" class="headerlink" title="页面展示"></a>页面展示</h3><p><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-1.png" alt="顶峰新闻-1" title="顶峰新闻-1"><br><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-2.png" alt="顶峰新闻-2" title="顶峰新闻-2"><br><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-3.png" alt="顶峰新闻-3" title="顶峰新闻-3"><br><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-4.png" alt="顶峰新闻-4" title="顶峰新闻-4"><br><img src="https://cdn.jsdelivr.net/npm/nin3_img/%E9%A1%B6%E5%B3%B0-5.png" alt="顶峰新闻-5" title="顶峰新闻-5"></p>
+]]></content>
+      <tags>
+        <tag>UI设计</tag>
+      </tags>
+  </entry>
 </search>
