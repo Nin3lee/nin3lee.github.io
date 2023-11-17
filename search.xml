@@ -31,6 +31,9 @@
 <p>选中表格框架，按下回车<kbd>Enter</kbd>选中所有子项即每行表格，在画框属性中调整横向纵向都为“填充内容”;<br>再次按下回车<kbd>Enter</kbd>选中所有子项即所有单个表格，如法炮制，调整画框属性同上;<br>这时调整表格外框时，已经可以比较完美的呈现出自适应效果了。</p>
 <div class="note warning flat"><p>表格组件的不完美体现在最小宽度没有被限制的前提下，会导致过窄的表格会导致文本内容显示不完全。<br>而对应的解决方案是选中所有单元格并设置最小宽度以避免被过度压缩导致的内容丢失。</p>
 </div>]]></content>
+      <categories>
+        <category>视觉设计</category>
+      </categories>
   </entry>
   <entry>
     <title>Have a Nice try</title>
