@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Have a Nice try</title>
-    <url>/2df43f1de4fe/</url>
-    <content><![CDATA[<h3 id="请从现在开始，尝试一些尝试吧"><a href="#请从现在开始，尝试一些尝试吧" class="headerlink" title="请从现在开始，尝试一些尝试吧"></a>请从现在开始，尝试一些尝试吧</h3>]]></content>
-      <tags>
-        <tag>Try</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Figma技巧研习#1 自适应表格</title>
     <url>/6e4a3da96054/</url>
     <content><![CDATA[<h3 id="搭建前的知识了解"><a href="#搭建前的知识了解" class="headerlink" title="搭建前的知识了解"></a>搭建前的知识了解</h3><h4 id="设计工具选用"><a href="#设计工具选用" class="headerlink" title="设计工具选用"></a>设计工具选用</h4><p>本文使用的设计工具是由Moonvy月维开发的<a href="https://moonvy.com/figmaEX/">FigmaEX桌面端</a>，对原有Figma界面进行了非常全面的汉化，对中文使用者非常友好，安装后可体验与作者同样的UI界面，有效降低沟通成本。</p>
@@ -57,6 +49,11 @@
       <tags>
         <tag>UI设计</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>这只是一个测试！</title>
+    <url>/2df43f1de4fe/</url>
+    <content><![CDATA[<h3 id="请从现在开始，尝试一些尝试吧"><a href="#请从现在开始，尝试一些尝试吧" class="headerlink" title="请从现在开始，尝试一些尝试吧"></a>请从现在开始，尝试一些尝试吧</h3>]]></content>
   </entry>
   <entry>
     <title>Hello World</title>
