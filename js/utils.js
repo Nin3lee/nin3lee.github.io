@@ -1041,15 +1041,15 @@ const anzhiyu = {
 
     function dr_js_autofill_commentinfos() {
       var lauthor = [
-          "#author",
-          "input[name='comname']",
-          "#inpName",
-          "input[name='author']",
-          "#ds-dialog-name",
-          "#name",
-          "input[name='nick']",
-          "#comment_author",
-        ],
+        "#author",
+        "input[name='comname']",
+        "#inpName",
+        "input[name='author']",
+        "#ds-dialog-name",
+        "#name",
+        "input[name='nick']",
+        "#comment_author",
+      ],
         lmail = [
           "#mail",
           "#email",
@@ -1360,6 +1360,7 @@ const anzhiyuPopupManager = {
 
   popupShow(title, tip, url, duration) {
     const popupWindow = document.getElementById("popup-window");
+    if (!popupWindow) return;
     const windowTitle = popupWindow.querySelector(".popup-window-title");
     const windowContent = popupWindow.querySelector(".popup-window-content");
     const cookiesTip = windowContent.querySelector(".popup-tip");
