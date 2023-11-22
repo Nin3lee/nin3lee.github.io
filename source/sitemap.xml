@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://nin3lee.github.io/2df43f1de4fe/</loc>
+    <loc>https://nin3lee.github.io/update/index.html</loc>
+    
+    <lastmod>2023-11-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nin3lee.github.io/c3588ba34d11/</loc>
+    
+    <lastmod>2023-11-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nin3lee.github.io/1f9224615143/</loc>
     
     <lastmod>2023-11-21</lastmod>
     
@@ -12,15 +30,6 @@
   
   <url>
     <loc>https://nin3lee.github.io/privacy/index.html</loc>
-    
-    <lastmod>2023-11-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://nin3lee.github.io/179704e11348/</loc>
     
     <lastmod>2023-11-20</lastmod>
     
