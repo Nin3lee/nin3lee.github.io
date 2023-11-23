@@ -34,6 +34,12 @@
       <categories>
         <category>视觉设计</category>
       </categories>
+      <tags>
+        <tag>UI设计</tag>
+        <tag>表格组件</tag>
+        <tag>Figma</tag>
+        <tag>实用技巧</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -55,6 +61,11 @@
       <categories>
         <category>代码钻研</category>
       </categories>
+      <tags>
+        <tag>网站搭建</tag>
+        <tag>框架部署</tag>
+        <tag>Hexo</tag>
+      </tags>
   </entry>
   <entry>
     <title>新闻类APP设计系统分享</title>
@@ -69,11 +80,15 @@
       </categories>
       <tags>
         <tag>UI设计</tag>
+        <tag>视觉设计</tag>
       </tags>
   </entry>
   <entry>
     <title>这只是一个测试！</title>
     <url>/1f9224615143/</url>
     <content><![CDATA[<h3 id="请从现在开始，尝试一些尝试吧"><a href="#请从现在开始，尝试一些尝试吧" class="headerlink" title="请从现在开始，尝试一些尝试吧"></a>请从现在开始，尝试一些尝试吧</h3>]]></content>
+      <tags>
+        <tag>测试</tag>
+      </tags>
   </entry>
 </search>

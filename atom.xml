@@ -6,7 +6,7 @@
   <link href="https://nin3lee.github.io/atom.xml" rel="self"/>
   
   <link href="https://nin3lee.github.io/"/>
-  <updated>2023-11-20T03:49:09.481Z</updated>
+  <updated>2023-11-23T04:01:19.344Z</updated>
   <id>https://nin3lee.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://nin3lee.github.io/6e4a3da96054/"/>
     <id>https://nin3lee.github.io/6e4a3da96054/</id>
     <published>2023-11-14T01:57:50.000Z</published>
-    <updated>2023-11-20T03:49:09.481Z</updated>
+    <updated>2023-11-23T04:01:19.344Z</updated>
     
     
       
@@ -37,6 +37,14 @@
     <category term="视觉设计" scheme="https://nin3lee.github.io/categories/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/"/>
     
     
+    <category term="UI设计" scheme="https://nin3lee.github.io/tags/UI%E8%AE%BE%E8%AE%A1/"/>
+    
+    <category term="表格组件" scheme="https://nin3lee.github.io/tags/%E8%A1%A8%E6%A0%BC%E7%BB%84%E4%BB%B6/"/>
+    
+    <category term="Figma" scheme="https://nin3lee.github.io/tags/Figma/"/>
+    
+    <category term="实用技巧" scheme="https://nin3lee.github.io/tags/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
+    
   </entry>
   
   <entry>
@@ -44,7 +52,7 @@
     <link href="https://nin3lee.github.io/c3588ba34d11/"/>
     <id>https://nin3lee.github.io/c3588ba34d11/</id>
     <published>2023-10-08T08:34:51.000Z</published>
-    <updated>2023-11-23T03:49:24.198Z</updated>
+    <updated>2023-11-23T03:59:36.166Z</updated>
     
     
       
@@ -62,6 +70,8 @@
     
     <category term="UI设计" scheme="https://nin3lee.github.io/tags/UI%E8%AE%BE%E8%AE%A1/"/>
     
+    <category term="视觉设计" scheme="https://nin3lee.github.io/tags/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/"/>
+    
   </entry>
   
   <entry>
@@ -69,7 +79,7 @@
     <link href="https://nin3lee.github.io/55b4cb1c80ae/"/>
     <id>https://nin3lee.github.io/55b4cb1c80ae/</id>
     <published>2023-09-14T02:58:33.000Z</published>
-    <updated>2023-11-20T03:46:03.199Z</updated>
+    <updated>2023-11-23T04:00:36.332Z</updated>
     
     
       
@@ -85,6 +95,12 @@
     <category term="代码钻研" scheme="https://nin3lee.github.io/categories/%E4%BB%A3%E7%A0%81%E9%92%BB%E7%A0%94/"/>
     
     
+    <category term="网站搭建" scheme="https://nin3lee.github.io/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="框架部署" scheme="https://nin3lee.github.io/tags/%E6%A1%86%E6%9E%B6%E9%83%A8%E7%BD%B2/"/>
+    
+    <category term="Hexo" scheme="https://nin3lee.github.io/tags/Hexo/"/>
+    
   </entry>
   
   <entry>
@@ -92,7 +108,7 @@
     <link href="https://nin3lee.github.io/1f9224615143/"/>
     <id>https://nin3lee.github.io/1f9224615143/</id>
     <published>2023-09-12T10:00:25.000Z</published>
-    <updated>2023-11-21T08:06:48.164Z</updated>
+    <updated>2023-11-23T04:00:47.812Z</updated>
     
     
       
@@ -105,6 +121,8 @@
     
     
     
+    
+    <category term="测试" scheme="https://nin3lee.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
