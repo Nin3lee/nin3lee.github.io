@@ -1,10 +1,11 @@
-https://nin3lee.github.io/update/index.html
 https://nin3lee.github.io/c3588ba34d11/
+https://nin3lee.github.io/categories/index.html
+https://nin3lee.github.io/tags/index.html
+https://nin3lee.github.io/update/index.html
 https://nin3lee.github.io/1f9224615143/
 https://nin3lee.github.io/privacy/index.html
 https://nin3lee.github.io/6e4a3da96054/
 https://nin3lee.github.io/55b4cb1c80ae/
-https://nin3lee.github.io/categories/index.html
 https://nin3lee.github.io/cookies/index.html
 https://nin3lee.github.io/copyright/index.html
 https://nin3lee.github.io/essay/index.html
@@ -13,7 +14,6 @@ https://nin3lee.github.io/music/index.html
 https://nin3lee.github.io/json/music.json
 https://nin3lee.github.io/link/index.html
 https://nin3lee.github.io/about/index.html
-https://nin3lee.github.io/tags/index.html
 https://nin3lee.github.io/
 https://nin3lee.github.io/tags/UI%E8%AE%BE%E8%AE%A1/
 https://nin3lee.github.io/categories/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/
