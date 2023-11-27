@@ -1,113 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>Figma技巧研习#1 自适应表格</title>
-      <link href="/6e4a3da96054/"/>
-      <url>/6e4a3da96054/</url>
-      
-        <content type="html"><![CDATA[<h3 id="搭建前的知识了解"><a href="#搭建前的知识了解" class="headerlink" title="搭建前的知识了解"></a>搭建前的知识了解</h3><h4 id="设计工具选用"><a href="#设计工具选用" class="headerlink" title="设计工具选用"></a>设计工具选用</h4><p>本文使用的设计工具是由Moonvy月维开发的<a href="https://moonvy.com/figmaEX/">FigmaEX桌面端</a>，对原有Figma界面进行了非常全面的汉化，对中文使用者非常友好，安装后可体验与作者同样的UI界面，有效降低沟通成本。</p><h4 id="表格组件的结构"><a href="#表格组件的结构" class="headerlink" title="表格组件的结构"></a>表格组件的结构</h4><p>表格组件的结构在我们常见的应用场景下，多由（表头+N行构成的表身）搭建而成，但是在使用Figma时我们不得不考虑工具实现的效果，因此我们其实有两个不同的实现方案：</p><ul><li><strong>以行为单位</strong>重复的表格组件</li><li><strong>以列为单位</strong>重复的表格组件</li></ul><div class="note success flat"><p>本文提供以行为单位的表格组件搭建流程，在跟随文章搭建完成后，相信你也可以举一反三完成以列为单位的表格组件。</p></div><h4 id="现有表格的局限性"><a href="#现有表格的局限性" class="headerlink" title="现有表格的局限性"></a>现有表格的局限性</h4><p>Figma平台提供了两种原生的表格组件：</p><ul><li>FigJam中的表格功能<kbd>Shift + T</kbd></li><li>Widget（小组件）中的Table（表格）</li></ul><p>二者都提供了简易的内容自适应表格，一定程度上满足了不同环境下的工作需求，在定位上都更加契合“开箱即用”的原则，而在设计上都缺少了更高的自定义可能。你可以用它们来完成简单的头脑风暴或总结，但是诸如表格样式，内容文本的字族、颜色、对齐策略等，都受限于“开箱即用”特点的轻快简易，因而表格的搭建变得有了必要。</p><h4 id="约束-自动布局"><a href="#约束-自动布局" class="headerlink" title="约束&amp;自动布局"></a>约束&amp;自动布局</h4><p>在Figma功能发展的历史上，约束（Constraint）出现的更早，满足简易的布局要求，例如固定距上&#x2F;下&#x2F;左&#x2F;右的距离、等比例拉伸、居中等；而自动布局（Auto Layout）在后续的版本更新中，展现出更好的表现，对更多细致的需求和更高精度的布局策略给出了解决方案，<strong>几乎可以取缔约束</strong>。</p><div class="note info flat"><p>本文采用约束和自动布局并行的方式而没有全部选择自动布局，旨在给大家提供约束工具运用的经验，了解约束的功能。</p></div><h3 id="搭建表格"><a href="#搭建表格" class="headerlink" title="搭建表格"></a>搭建表格</h3><h4 id="（1）创建表头和表身"><a href="#（1）创建表头和表身" class="headerlink" title="（1）创建表头和表身"></a>（1）创建表头和表身</h4><p><img src="https://bu.dusays.com/2023/11/20/655ad6165a07d.png" alt="第一步" title="创建表头和表身"><br>创建一个画框<kbd>F</kbd>，输入内容<kbd>T</kbd>“Head” 意为 “表头”；<br>调整文本内容的约束属性横向纵向都为居中；<br>如法炮制，创建框架并输入内容 “Row” 意为 “行&#x2F;表身”，同样调整文本内容的约束属性同上。</p><h4 id="（2）绘制表格的基本样式"><a href="#（2）绘制表格的基本样式" class="headerlink" title="（2）绘制表格的基本样式"></a>（2）绘制表格的基本样式</h4><p><img src="https://bu.dusays.com/2023/11/20/655ad354487c3.png" alt="第二步" title="绘制表格的基本样式"><br>选中任意一个表格，添加描边-调整填充颜色 <code>#E6E6E6</code>;<br><strong>描边属性最好选择居中</strong>，选择内部会导致相邻边框宽度不一，选择外部会导致重叠区域视觉不和谐。<br>复制属性<kbd>Ctrl + Alt + C</kbd>并粘贴<kbd>Ctrl + Alt + V</kbd>应用于其他表格。</p><h4 id="（3）复制并完成搭建"><a href="#（3）复制并完成搭建" class="headerlink" title="（3）复制并完成搭建"></a>（3）复制并完成搭建</h4><p><img src="https://bu.dusays.com/2023/11/20/655ad3545044c.png" alt="第三步" title="复制并完成搭建"><br>复制多个Head和Row<kbd>Alt + 拖拽</kbd> &#x2F; <kbd>Ctrl + D</kbd>；<br>以行为单位将每行表格选中并分别为每行添加自动布局<kbd>Shift + A</kbd>，调整横向间距为0；<br>接着将每行表格全部选中，并再次添加自动布局<kbd>Shift + A</kbd>，调整纵向间距为0；<br>至此基本框架已经搭建完毕，大家可以手动选中任意表格或者任意行进行复制以快速拓展，这得益于自动布局带来的优势。</p><h4 id="（4）为表头添加视觉强调，为表格创建外部圆角"><a href="#（4）为表头添加视觉强调，为表格创建外部圆角" class="headerlink" title="（4）为表头添加视觉强调，为表格创建外部圆角"></a>（4）为表头添加视觉强调，为表格创建外部圆角</h4><p><img src="https://bu.dusays.com/2023/11/20/655ad35452538.png" alt="第四步" title="为表头添加视觉强调，为表格创建外部圆角"><br>虽然我们通过两次的自动布局创建了基本的布局，但表格的样式调整<strong>仍依赖单个表格样式属性</strong>，<br>这意味着我们为表头添加灰色背景时，需要<strong>批量选中需要填充的表格，而不是表头整体的框架</strong>。</p><p>在这里介绍选择子项的功能<kbd>Enter</kbd>，这将精简我们的操作，减少多选负担。<br>如何操作：选中表头框架，按下回车<kbd>Enter</kbd>就会直接选择所选内容的子项，接着调整填充颜色为 <code>#F9F9FB</code><br>表格外框的圆角设置也需要分别选择四个角的表格并单独调整圆角项。</p><h4 id="（5）实现自适应"><a href="#（5）实现自适应" class="headerlink" title="（5）实现自适应"></a>（5）实现自适应</h4><p><img src="https://bu.dusays.com/2023/11/20/655ad35460ea7.png" alt="第五步" title="实现自适应"></p><div class="note info flat"><p>此处的自适应是指在调整表格外框时，每个表格都会均等的调整。</p></div><p>选中表格框架，按下回车<kbd>Enter</kbd>选中所有子项即每行表格，在画框属性中调整横向纵向都为“填充内容”;<br>再次按下回车<kbd>Enter</kbd>选中所有子项即所有单个表格，如法炮制，调整画框属性同上;<br>这时调整表格外框时，已经可以比较完美的呈现出自适应效果了。</p><div class="note warning flat"><p>表格组件的不完美体现在最小宽度没有被限制的前提下，会导致过窄的表格会导致文本内容显示不完全。<br>而对应的解决方案是选中所有单元格并设置最小宽度以避免被过度压缩导致的内容丢失。</p></div>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/55b4cb1c80ae/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
       <categories>
-          
-          <category> 视觉设计 </category>
-          
+        <category>代码钻研</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> UI设计 </tag>
-            
-            <tag> 表格组件 </tag>
-            
-            <tag> Figma </tag>
-            
-            <tag> 实用技巧 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>新闻类APP设计系统分享</title>
-      <link href="/c3588ba34d11/"/>
-      <url>/c3588ba34d11/</url>
-      
-        <content type="html"><![CDATA[<h3 id="搭载Iframe的实时预览"><a href="#搭载Iframe的实时预览" class="headerlink" title="搭载Iframe的实时预览"></a>搭载Iframe的实时预览</h3><p>Figma提供的Iframe嵌入代码允许我们实时的浏览该项目，支持便捷的缩放和全屏展示。</p><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="970" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FDEh0ys71li4JXyOTBV2DKt%2F%25E9%25A1%25B6%25E5%25B3%25B0%25E6%2596%25B0%25E9%2597%25BBApp%3Ftype%3Ddesign%26node-id%3D189%253A403%26mode%3Ddesign%26t%3DVGfSyTsNCNOncIgw-1" allowfullscreen></iframe><h3 id="页面展示"><a href="#页面展示" class="headerlink" title="页面展示"></a>页面展示</h3><p><img src="https://bu.dusays.com/2023/11/20/655ad2d1cda88.png" alt="顶峰新闻-1" title="顶峰新闻-1"><br><img src="https://bu.dusays.com/2023/11/20/655ad2d18990b.png" alt="顶峰新闻-2" title="顶峰新闻-2"><br><img src="https://bu.dusays.com/2023/11/20/655ad2cceeaa6.png" alt="顶峰新闻-3" title="顶峰新闻-3"><br><img src="https://bu.dusays.com/2023/11/20/655ad2cfe5bb3.png" alt="顶峰新闻-4" title="顶峰新闻-4"><br><img src="https://bu.dusays.com/2023/11/20/655ad2d1abebe.png" alt="顶峰新闻-5" title="顶峰新闻-5"></p>]]></content>
-      
-      
+      <tags>
+        <tag>网站搭建</tag>
+        <tag>框架部署</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Figma技巧研习#1 自适应表格</title>
+    <url>/6e4a3da96054/</url>
+    <content><![CDATA[<h3 id="搭建前的知识了解"><a href="#搭建前的知识了解" class="headerlink" title="搭建前的知识了解"></a>搭建前的知识了解</h3><h4 id="设计工具选用"><a href="#设计工具选用" class="headerlink" title="设计工具选用"></a>设计工具选用</h4><p>本文使用的设计工具是由Moonvy月维开发的<a href="https://moonvy.com/figmaEX/">FigmaEX桌面端</a>，对原有Figma界面进行了非常全面的汉化，对中文使用者非常友好，安装后可体验与作者同样的UI界面，有效降低沟通成本。</p>
+<h4 id="表格组件的结构"><a href="#表格组件的结构" class="headerlink" title="表格组件的结构"></a>表格组件的结构</h4><p>表格组件的结构在我们常见的应用场景下，多由（表头+N行构成的表身）搭建而成，但是在使用Figma时我们不得不考虑工具实现的效果，因此我们其实有两个不同的实现方案：</p>
+<ul>
+<li><strong>以行为单位</strong>重复的表格组件</li>
+<li><strong>以列为单位</strong>重复的表格组件</li>
+</ul>
+<div class="note success flat"><p>本文提供以行为单位的表格组件搭建流程，在跟随文章搭建完成后，相信你也可以举一反三完成以列为单位的表格组件。</p>
+</div>
+<h4 id="现有表格的局限性"><a href="#现有表格的局限性" class="headerlink" title="现有表格的局限性"></a>现有表格的局限性</h4><p>Figma平台提供了两种原生的表格组件：</p>
+<ul>
+<li>FigJam中的表格功能<kbd>Shift + T</kbd></li>
+<li>Widget（小组件）中的Table（表格）</li>
+</ul>
+<p>二者都提供了简易的内容自适应表格，一定程度上满足了不同环境下的工作需求，在定位上都更加契合“开箱即用”的原则，而在设计上都缺少了更高的自定义可能。你可以用它们来完成简单的头脑风暴或总结，但是诸如表格样式，内容文本的字族、颜色、对齐策略等，都受限于“开箱即用”特点的轻快简易，因而表格的搭建变得有了必要。</p>
+<h4 id="约束-自动布局"><a href="#约束-自动布局" class="headerlink" title="约束&amp;自动布局"></a>约束&amp;自动布局</h4><p>在Figma功能发展的历史上，约束（Constraint）出现的更早，满足简易的布局要求，例如固定距上&#x2F;下&#x2F;左&#x2F;右的距离、等比例拉伸、居中等；而自动布局（Auto Layout）在后续的版本更新中，展现出更好的表现，对更多细致的需求和更高精度的布局策略给出了解决方案，<strong>几乎可以取缔约束</strong>。</p>
+<div class="note info flat"><p>本文采用约束和自动布局并行的方式而没有全部选择自动布局，旨在给大家提供约束工具运用的经验，了解约束的功能。</p>
+</div>
+<h3 id="搭建表格"><a href="#搭建表格" class="headerlink" title="搭建表格"></a>搭建表格</h3><h4 id="（1）创建表头和表身"><a href="#（1）创建表头和表身" class="headerlink" title="（1）创建表头和表身"></a>（1）创建表头和表身</h4><p><img src="https://bu.dusays.com/2023/11/20/655ad6165a07d.png" alt="第一步" title="创建表头和表身"><br>创建一个画框<kbd>F</kbd>，输入内容<kbd>T</kbd>“Head” 意为 “表头”；<br>调整文本内容的约束属性横向纵向都为居中；<br>如法炮制，创建框架并输入内容 “Row” 意为 “行&#x2F;表身”，同样调整文本内容的约束属性同上。</p>
+<h4 id="（2）绘制表格的基本样式"><a href="#（2）绘制表格的基本样式" class="headerlink" title="（2）绘制表格的基本样式"></a>（2）绘制表格的基本样式</h4><p><img src="https://bu.dusays.com/2023/11/20/655ad354487c3.png" alt="第二步" title="绘制表格的基本样式"><br>选中任意一个表格，添加描边-调整填充颜色 <code>#E6E6E6</code>;<br><strong>描边属性最好选择居中</strong>，选择内部会导致相邻边框宽度不一，选择外部会导致重叠区域视觉不和谐。<br>复制属性<kbd>Ctrl + Alt + C</kbd>并粘贴<kbd>Ctrl + Alt + V</kbd>应用于其他表格。</p>
+<h4 id="（3）复制并完成搭建"><a href="#（3）复制并完成搭建" class="headerlink" title="（3）复制并完成搭建"></a>（3）复制并完成搭建</h4><p><img src="https://bu.dusays.com/2023/11/20/655ad3545044c.png" alt="第三步" title="复制并完成搭建"><br>复制多个Head和Row<kbd>Alt + 拖拽</kbd> &#x2F; <kbd>Ctrl + D</kbd>；<br>以行为单位将每行表格选中并分别为每行添加自动布局<kbd>Shift + A</kbd>，调整横向间距为0；<br>接着将每行表格全部选中，并再次添加自动布局<kbd>Shift + A</kbd>，调整纵向间距为0；<br>至此基本框架已经搭建完毕，大家可以手动选中任意表格或者任意行进行复制以快速拓展，这得益于自动布局带来的优势。</p>
+<h4 id="（4）为表头添加视觉强调，为表格创建外部圆角"><a href="#（4）为表头添加视觉强调，为表格创建外部圆角" class="headerlink" title="（4）为表头添加视觉强调，为表格创建外部圆角"></a>（4）为表头添加视觉强调，为表格创建外部圆角</h4><p><img src="https://bu.dusays.com/2023/11/20/655ad35452538.png" alt="第四步" title="为表头添加视觉强调，为表格创建外部圆角"><br>虽然我们通过两次的自动布局创建了基本的布局，但表格的样式调整<strong>仍依赖单个表格样式属性</strong>，<br>这意味着我们为表头添加灰色背景时，需要<strong>批量选中需要填充的表格，而不是表头整体的框架</strong>。</p>
+<p>在这里介绍选择子项的功能<kbd>Enter</kbd>，这将精简我们的操作，减少多选负担。<br>如何操作：选中表头框架，按下回车<kbd>Enter</kbd>就会直接选择所选内容的子项，接着调整填充颜色为 <code>#F9F9FB</code><br>表格外框的圆角设置也需要分别选择四个角的表格并单独调整圆角项。</p>
+<h4 id="（5）实现自适应"><a href="#（5）实现自适应" class="headerlink" title="（5）实现自适应"></a>（5）实现自适应</h4><p><img src="https://bu.dusays.com/2023/11/20/655ad35460ea7.png" alt="第五步" title="实现自适应"></p>
+<div class="note info flat"><p>此处的自适应是指在调整表格外框时，每个表格都会均等的调整。</p>
+</div>
+<p>选中表格框架，按下回车<kbd>Enter</kbd>选中所有子项即每行表格，在画框属性中调整横向纵向都为“填充内容”;<br>再次按下回车<kbd>Enter</kbd>选中所有子项即所有单个表格，如法炮制，调整画框属性同上;<br>这时调整表格外框时，已经可以比较完美的呈现出自适应效果了。</p>
+<div class="note warning flat"><p>表格组件的不完美体现在最小宽度没有被限制的前提下，会导致过窄的表格会导致文本内容显示不完全。<br>而对应的解决方案是选中所有单元格并设置最小宽度以避免被过度压缩导致的内容丢失。</p>
+</div>]]></content>
       <categories>
-          
-          <category> 视觉设计 </category>
-          
+        <category>视觉设计</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> UI设计 </tag>
-            
-            <tag> 视觉设计 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/55b4cb1c80ae/"/>
-      <url>/55b4cb1c80ae/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
+      <tags>
+        <tag>UI设计</tag>
+        <tag>表格组件</tag>
+        <tag>Figma</tag>
+        <tag>实用技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>这只是一个测试！</title>
+    <url>/1f9224615143/</url>
+    <content><![CDATA[<h3 id="请从现在开始，尝试一些尝试吧"><a href="#请从现在开始，尝试一些尝试吧" class="headerlink" title="请从现在开始，尝试一些尝试吧"></a>请从现在开始，尝试一些尝试吧</h3>]]></content>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新闻类APP设计系统分享</title>
+    <url>/c3588ba34d11/</url>
+    <content><![CDATA[<h3 id="搭载Iframe的实时预览"><a href="#搭载Iframe的实时预览" class="headerlink" title="搭载Iframe的实时预览"></a>搭载Iframe的实时预览</h3><p>Figma提供的Iframe嵌入代码允许我们实时的浏览该项目，支持便捷的缩放和全屏展示。</p>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="970" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FDEh0ys71li4JXyOTBV2DKt%2F%25E9%25A1%25B6%25E5%25B3%25B0%25E6%2596%25B0%25E9%2597%25BBApp%3Ftype%3Ddesign%26node-id%3D189%253A403%26mode%3Ddesign%26t%3DVGfSyTsNCNOncIgw-1" allowfullscreen></iframe>
+
+<h3 id="页面展示"><a href="#页面展示" class="headerlink" title="页面展示"></a>页面展示</h3><p><img src="https://bu.dusays.com/2023/11/20/655ad2d1cda88.png" alt="顶峰新闻-1" title="顶峰新闻-1"><br><img src="https://bu.dusays.com/2023/11/20/655ad2d18990b.png" alt="顶峰新闻-2" title="顶峰新闻-2"><br><img src="https://bu.dusays.com/2023/11/20/655ad2cceeaa6.png" alt="顶峰新闻-3" title="顶峰新闻-3"><br><img src="https://bu.dusays.com/2023/11/20/655ad2cfe5bb3.png" alt="顶峰新闻-4" title="顶峰新闻-4"><br><img src="https://bu.dusays.com/2023/11/20/655ad2d1abebe.png" alt="顶峰新闻-5" title="顶峰新闻-5"></p>
+]]></content>
       <categories>
-          
-          <category> 代码钻研 </category>
-          
+        <category>视觉设计</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 网站搭建 </tag>
-            
-            <tag> 框架部署 </tag>
-            
-            <tag> Hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>这只是一个测试！</title>
-      <link href="/1f9224615143/"/>
-      <url>/1f9224615143/</url>
-      
-        <content type="html"><![CDATA[<h3 id="请从现在开始，尝试一些尝试吧"><a href="#请从现在开始，尝试一些尝试吧" class="headerlink" title="请从现在开始，尝试一些尝试吧"></a>请从现在开始，尝试一些尝试吧</h3>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 测试 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>UI设计</tag>
+        <tag>视觉设计</tag>
+      </tags>
+  </entry>
 </search>
